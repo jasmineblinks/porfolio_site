@@ -7,8 +7,8 @@ const Homepage = () => (
 
     <h1>Hi, I am <br/> Faith Pueneh</h1>
     <h2>Front-end Web Developer</h2>
-    <button>Know more</button>
-    <p>Join me</p>
+    
+    
   </layout>
 );
 
