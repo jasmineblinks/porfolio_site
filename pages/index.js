@@ -7,7 +7,15 @@ const Homepage = () => (
 
     <h1>Hi, I am <br/> Faith Pueneh</h1>
     <h2>Front-end Web Developer</h2>
-    
+    <button>Know More</button>
+    <ul>
+      <li>Join me here</li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+
+    </ul>
     
   </layout>
 );
