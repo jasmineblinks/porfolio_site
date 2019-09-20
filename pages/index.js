@@ -11,9 +11,9 @@ const Homepage = () => (
     <button>Know More</button>
     <ul>
       <li>Join me here</li>
-      <li><Link href='https://www.facebook.com/pueneh.faithkb'><a><img src="/static/fb.png" /></a></Link></li>
-      <li><Link href='https://github.com/jasmineblinks'><a><img src="/static/git.png" /></a></Link></li>
-      <li><Link href='https://twitter.com/puenehfaith'><a><img src="/static/tw.png" /></a></Link></li>
+      <li><Link href='https://www.facebook.com/pueneh.faithkb'><a><img src="/static/fb.png" width="30px" height="30px" /></a></Link></li>
+      <li><Link href='https://github.com/jasmineblinks'><a><img src="/static/git.png" width="30px" height="30px" /></a></Link></li>
+      <li><Link href='https://twitter.com/puenehfaith'><a><img src="/static/tw.png" width="30px" height="30px" /></a></Link></li>
     
 
     </ul>
