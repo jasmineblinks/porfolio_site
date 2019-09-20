@@ -11,12 +11,12 @@ const Menu = () => (
     </li>
     <li>
       <Link href="/About">
-        <a>About Us</a>
+        <a>About </a>
       </Link>
     </li>
     <li>
       <Link href="/Contact">
-        <a>Contact Us</a>
+        <a>Contact </a>
       </Link>
     </li>
     <li>
@@ -33,7 +33,7 @@ const Menu = () => (
     }
     .menu li a {
       font-size: 25px;
-      color: #3549e2;
+      color: #E8685D;
       font-weight: 500;
       padding: 5px 2px;
       margin: 0 10px;
@@ -41,7 +41,7 @@ const Menu = () => (
     }
     .menu li a:hover {
       padding-bottom: 3px;
-      border-bottom: 2px solid #3549e2;
+      border-bottom: 2px solid #E8685D;
     }
     @media (max-width: 360px) {
       .menu {

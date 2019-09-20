@@ -28,12 +28,12 @@ const Layout = props => (
       }
 
       a {
-        color: #3549e2;
+        color: #E8685D;
         text-decoration: none;
       }
 
       a:hover {
-        color: #2e0682;
+        color: #3549e2;
       }
 
       h1,
