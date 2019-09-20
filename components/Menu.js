@@ -32,7 +32,7 @@ const Menu = () => (
       display: flex;
     }
     .menu li a {
-      font-size: 25px;
+      font-size: 10px;
       color: #E8685D;
       font-weight: 500;
       padding: 5px 2px;
