@@ -33,7 +33,7 @@ const Layout = props => (
       }
 
       a:hover {
-        color: #166281;
+        color: #2e0682;
       }
 
       h1,
