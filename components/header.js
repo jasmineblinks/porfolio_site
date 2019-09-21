@@ -8,10 +8,11 @@ const Header = () => (
     <Menu/>
     <style jsx>{`
     .header-wrapper{
-        padding:20px;
+        padding:10px;
         display:flex;
         justify-content:space-between;
         align-items: center;
+        
     }
         
         @media (max-width: 360px) {

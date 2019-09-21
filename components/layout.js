@@ -5,7 +5,7 @@ const Layout = props => (
   <div className="site-wrapper">
     <Header />
 
-    <div className="content-wrapper">{props.children}</div>
+    <div className="cover">{props.children}</div>
 
     <Footer />
     
@@ -21,8 +21,8 @@ const Layout = props => (
         font-size: 20px;
         line-height: 1.7;
         font-weight: 400;
-        background: #fff;
-        color: #3549e2;
+        
+        color: #E8685D;
         font-family:  BlinkMacSystemFont, Roboto, 'Segoe UI', 'Fira Sans', 'Helvetica Neue', sans-serif;
         text-rendering: optimizeLegibility;
       }
@@ -60,9 +60,18 @@ const Layout = props => (
 
       /* Layout */
 
-      .content-wrapper {
-        min-height: 600px;
-        text-align: center;
+      .cover {
+        /* The image used */
+        background-image: url("/static/me.jpg");
+      
+        /* Set a specific height */
+        min-height: 500px; 
+      
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
       }
     `}</style>
   </div>

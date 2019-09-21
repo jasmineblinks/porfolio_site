@@ -27,7 +27,7 @@ const Menu = () => (
     <style jsx>{`
     .menu {
       margin: 5px;
-      padding: 0;
+
       list-style: none;
       display: flex;
     }

@@ -3,9 +3,10 @@ import Link from 'next/link';
 
 const Homepage = () => (
   <layout>
-    <Layout/>
     
-
+    <Layout/>
+    <div className="cover">
+    <div className="text">
     <h1>Hi, I am <br/> Faith Pueneh</h1>
     <h2>Front-end Web Developer</h2>
     <button>Know More</button>
@@ -17,6 +18,25 @@ const Homepage = () => (
     
 
     </ul>
+    </div>
+    </div>
+    <div className="works">
+      </div>
+      <style jsx>{`
+      .cover {
+        /* The image used */
+        background-image: url("/static/me.jpg");
+      
+        /* Set a specific height */
+        min-height: 500px; 
+      
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      `}</style>
     
   </layout>
 );
