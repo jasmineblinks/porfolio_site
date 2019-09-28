@@ -9,11 +9,12 @@ const Header = () => (
     <style jsx>{`
     .header-wrapper{
         background-color:#fff;
-        padding:5px;
-        height:70px;
+        // padding:5px;
+        height:65px;
         display:flex;
         justify-content:space-between;
         align-items: center;
+        // text-align:center;
         
     }
         

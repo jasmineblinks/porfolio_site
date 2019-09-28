@@ -82,7 +82,11 @@ const Layout = props => (
 
       .cover {
         /* The image used */
-        background-image: url("/static/lap.jpg");
+        background: url("/static/lap.jpg");
+  
+        // background:rgba(0, 0, 0, 0.1);
+        // z-index:2;
+        
       
         /* Set a specific height */
         min-height: 500px; 
