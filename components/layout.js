@@ -10,7 +10,8 @@ const Layout = props => (
     
     <div className="cover">
     <div className="text">
-    <h1><span>Hi, I am</span><br/> Faith Pueneh <br/>Front-end Web Developer </h1>
+    <h1><span className="tex">Hi, I am</span><br/> Faith Pueneh </h1>
+    <h2>Front-end Web Developer</h2>
     
     <button>Know More</button>
     <ul className="my_link">
