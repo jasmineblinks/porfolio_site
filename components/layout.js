@@ -10,14 +10,14 @@ const Layout = props => (
     
     <div className="cover">
     <div className="text">
-    <h1>Hi, I am <br/> Faith Pueneh</h1>
-    <h2>Front-end Web Developer</h2>
+    <h1><span>Hi, I am</span><br/> Faith Pueneh <br/>Front-end Web Developer </h1>
+    
     <button>Know More</button>
-    <ul>
+    <ul className="my_link">
       <li>Join me here</li>
-      <li><Link href='https://www.facebook.com/pueneh.faithkb'><a><img src="/static/fb.png" width="30px" height="30px" /></a></Link></li>
-      <li><Link href='https://github.com/jasmineblinks'><a><img src="/static/git.png" width="30px" height="30px" /></a></Link></li>
-      <li><Link href='https://twitter.com/puenehfaith'><a><img src="/static/tw.png" width="30px" height="30px" /></a></Link></li>
+      <li><Link href='https://www.facebook.com/pueneh.faithkb'><a><img src="/static/fb.png" width="20px" height="20px" /></a></Link></li>
+      <li><Link href='https://github.com/jasmineblinks'><a><img src="/static/git.png" width="20px" height="20px" /></a></Link></li>
+      <li><Link href='https://twitter.com/puenehfaith'><a><img src="/static/tw.png" width="20px" height="20px" /></a></Link></li>
     
 
     </ul>
@@ -56,23 +56,23 @@ const Layout = props => (
         color: #3549e2;
       }
 
-      h1,
-      h2,
-      h3 {
-        margin: 40px 0 30px;
-      }
+      // h1,
+      // h2,
+      // h3 {
+      //   margin: 40px 0 30px;
+      // }
 
-      h1 {
-        font-size: 42px;
-      }
+      // h1 {
+      //   font-size: 42px;
+      // }
 
-      h2 {
-        font-size: 36px;
-      }
+      // h2 {
+      //   font-size: 36px;
+      // }
 
-      p {
-        margin: 0 0 10px;
-      }
+      // p {
+      //   margin: 0 0 10px;
+      // }
 
       img {
         max-width: 100%;
@@ -86,7 +86,7 @@ const Layout = props => (
           rgba(232, 104, 93, 0.45),
           rgba(232, 104, 93, 0.45) 
         
-        ), url("/static/lap.jpg");
+        ), url("/static/cu.jpeg");
   
        
         
@@ -98,13 +98,41 @@ const Layout = props => (
         background-attachment: fixed;
         background-position: center;
         background-repeat: no-repeat;
-        background-size: cover;
-
-      
-        
-
+        background-size: cover;  
+       
 
       }
+
+      .text{
+        color:#fff;
+        text-align:left;
+        margin-right:30px;
+        
+      }
+
+      .text h1{
+        line-height:45px;
+      }
+
+
+      .text button{
+        color:#E8685D;
+        background-color:#fff;
+        padding:10px;
+        border-radius:50px;
+        width:150px
+      }
+      .text .my_link{
+        display:flex;
+        list-style:none;       
+      }
+
+      .text .my_link li{
+        margin:5px;
+        
+
+      }
+
     `}</style>
   </div>
 );
