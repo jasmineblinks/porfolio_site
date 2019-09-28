@@ -82,10 +82,13 @@ const Layout = props => (
 
       .cover {
         /* The image used */
-        background: url("/static/lap.jpg");
+        background: linear-gradient(
+          rgba(232, 104, 93, 0.45),
+          rgba(232, 104, 93, 0.45) 
+        
+        ), url("/static/lap.jpg");
   
-        // background:rgba(0, 0, 0, 0.1);
-        // z-index:2;
+       
         
       
         /* Set a specific height */
@@ -96,6 +99,11 @@ const Layout = props => (
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
+
+      
+        
+
+
       }
     `}</style>
   </div>
