@@ -8,7 +8,9 @@ const Header = () => (
     <Menu/>
     <style jsx>{`
     .header-wrapper{
-        padding:10px;
+        background-color:#fff;
+        padding:5px;
+        height:70px;
         display:flex;
         justify-content:space-between;
         align-items: center;
