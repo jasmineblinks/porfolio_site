@@ -25,6 +25,11 @@ const Layout = props => (
     </div>
     </div>
     <div className="works">
+      <div className="cards">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
       </div>
     
 
@@ -131,6 +136,12 @@ const Layout = props => (
       .text .my_link li{
         margin:5px;
         
+
+      }
+      .works{
+        width:100%;
+        min-height:100px;
+        background-color:#fff;
 
       }
 

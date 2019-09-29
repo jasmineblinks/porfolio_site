@@ -4,6 +4,8 @@ const Footer = () => (
       <style jsx>{`
       .footer-wrapper {
         text-align: center;
+        background-color:#E8685D;
+        color:#fff;
         margin-top: 80px;
         padding: 80px 30px;
       }
