@@ -127,9 +127,10 @@ const Layout = props => (
 
 
       .text button{
-        color:#E8685D;
-        background-color:#fff;
+        color:#fff;
+        background-color:transparent;
         padding:10px;
+        border:1px solid #fff;
         border-radius:50px;
         width:150px
       }
