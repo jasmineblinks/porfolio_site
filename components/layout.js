@@ -134,6 +134,14 @@ const Layout = props => (
         border-radius:50px;
         width:150px
       }
+
+      .text button:hover{
+        color:#E8685D;
+        background-color:#fff;
+        padding:10px;
+        border-radius:50px;
+        width:150px
+      }
        .my_link{
         display:flex;
         list-style:none; 
