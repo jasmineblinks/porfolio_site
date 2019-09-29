@@ -130,21 +130,23 @@ const Layout = props => (
 
 
       .text button{
-        color:#fff;
-        background-color:transparent;
-        padding:10px;
-        border:1px solid #fff;
-        border-radius:50px;
-        width:150px
-      }
-
-      .text button:hover{
         color:#E8685D;
         background-color:#fff;
         padding:10px;
         border-radius:50px;
         width:150px
       }
+
+      // .text button:hover{
+      //   color:#fff;
+      //   background-color:transparent;
+      //   padding:10px;
+      //   border:1px solid #fff;
+      //   border-radius:50px;
+      //   width:150px
+      // }
+
+     
        .my_link{
         display:flex;
         list-style:none; 
