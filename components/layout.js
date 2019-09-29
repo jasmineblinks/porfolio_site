@@ -146,6 +146,7 @@ const Layout = props => (
         display:flex;
         list-style:none; 
         margin-left:-9px;
+        color:#fff;
                     
       }
 
@@ -156,6 +157,7 @@ const Layout = props => (
       }
       .text h2{
         font-size:20px;
+        
       }
       .works{
         width:100%;
