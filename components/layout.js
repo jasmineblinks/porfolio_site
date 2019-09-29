@@ -136,6 +136,7 @@ const Layout = props => (
        .my_link{
         display:flex;
         list-style:none; 
+        margin-left:-9px;
                     
       }
 
