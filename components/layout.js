@@ -14,6 +14,8 @@ const Layout = props => (
     <h2>Front-end Web Developer</h2>
     
     <button>Know More</button>
+    
+    </div>
     <ul className="my_link">
       <li>Join me here</li>
       <li><Link href='https://www.facebook.com/pueneh.faithkb'><a><img src="/static/fb.png" width="20px" height="20px" /></a></Link></li>
@@ -22,7 +24,6 @@ const Layout = props => (
     
 
     </ul>
-    </div>
     </div>
     <div className="works">
       <div className="cards">
@@ -108,11 +109,15 @@ const Layout = props => (
        
 
       }
-
+      .tex{
+        font-size:30px;
+        font-family:BlinkMacSystemFont;
+      }
       .text{
         color:#fff;
         text-align:left;
-        margin-right:30px;
+        padding-top:20px;
+        margin-left:30px;
         
       }
 
@@ -128,19 +133,23 @@ const Layout = props => (
         border-radius:50px;
         width:150px
       }
-      .text .my_link{
+       .my_link{
         display:flex;
-        list-style:none;       
+        list-style:none; 
+                    
       }
 
-      .text .my_link li{
+       .my_link li{
         margin:5px;
         
 
       }
+      .text h2{
+        font-size:20px;
+      }
       .works{
         width:100%;
-        min-height:100px;
+        min-height:200px;
         background-color:#fff;
 
       }
