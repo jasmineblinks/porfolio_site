@@ -105,7 +105,8 @@ const Layout = props => (
         background-attachment: fixed;
         background-position: center;
         background-repeat: no-repeat;
-        background-size: cover;  
+        background-size: cover; 
+        
        
 
       }
@@ -118,6 +119,8 @@ const Layout = props => (
         text-align:left;
         padding-top:20px;
         margin-left:30px;
+        font-size:30px;
+        line-height:20px; 
         
       }
 
@@ -157,6 +160,7 @@ const Layout = props => (
       }
       .text h2{
         font-size:20px;
+        font-family:Fira Sans;
         
       }
       .works{
