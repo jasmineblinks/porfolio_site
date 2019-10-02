@@ -45,6 +45,9 @@ const Homepage = () => (
         font-size: 20px;
         line-height: 1.7;
         font-weight: 400;
+        overflow-x: hidden;
+      
+    
         
         color: #E8685D;
         font-family:  BlinkMacSystemFont, Roboto, 'Segoe UI', 'Fira Sans', 'Helvetica Neue', sans-serif;
