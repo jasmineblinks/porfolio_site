@@ -1,37 +1,13 @@
 import Header from '../components/header';
 import Footer from '../components/footer';
-import Link from 'next/link';
 
 const Layout = props => (
   <div className="site-wrapper">
     <Header />
 
-    {/* <div className="cover">{props.children}</div> */}
+    <div className="cover">{props.children}</div>
     
-    <div className="cover">
-    <div className="text">
-    <h1><span className="tex">Hi, I am</span><br/> Faith Pueneh </h1>
-    <h2>Front-end Web Developer</h2>
     
-    <button>Know More</button>
-    
-    </div>
-    <ul className="my_link">
-      <li>Join me here</li>
-      <li><Link href='https://www.facebook.com/pueneh.faithkb'><a><img src="/static/fb.png" width="20px" height="20px" /></a></Link></li>
-      <li><Link href='https://github.com/jasmineblinks'><a><img src="/static/git.png" width="20px" height="20px" /></a></Link></li>
-      <li><Link href='https://twitter.com/puenehfaith'><a><img src="/static/tw.png" width="20px" height="20px" /></a></Link></li>
-    
-
-    </ul>
-    </div>
-    <div className="works">
-      <div className="cards">
-        <div></div>
-        <div></div>
-        <div></div>
-      </div>
-      </div>
     
 
     <Footer />
