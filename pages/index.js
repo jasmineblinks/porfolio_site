@@ -134,7 +134,7 @@ const Homepage = () => (
         background-color:#fff;
         padding:10px;
         border-radius:50px;
-        width:150px
+        width:150px;
       }
 
       // .text button:hover{
@@ -169,6 +169,33 @@ const Homepage = () => (
         width:100%;
         min-height:200px;
         background-color:#fff;
+
+      }
+      @media (max-width: 360px) {
+        .text {
+          left: 30px;
+          right: 30px;
+          padding: 20px;
+          
+        }
+       .text h1 {
+          font-size: 28px;
+        }
+        .tex{
+          font-size: 20px;
+        }
+        .text button{
+          width:100px ;
+          padding:5px;
+        }
+        .text h2{
+          font-size:15px;
+          font-family:Fira Sans;
+          
+        }
+        .my_link{
+          font-size:15px;
+        }
 
       }
 

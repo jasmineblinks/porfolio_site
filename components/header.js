@@ -22,6 +22,7 @@ const Header = () => (
             .header-wrapper {
               display: block;
               text-align: center;
+              height:100px;
             
     }
     `}</style>
