@@ -1,10 +1,17 @@
 
 import Layout from '../components/layout';
 const Contact= () => (
-    <div className="container">
-        <Layout/>
-      <h1>Contact Us</h1>
-    </div>
+    <Layout title="contact">
+      <div>
+        <h1>Get In Touch</h1>
+      </div>
+
+
+
+      <style jsx>{`
+
+      `}</style>
+    </Layout>
   );
   
   export default Contact;

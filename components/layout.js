@@ -5,7 +5,7 @@ const Layout = props => (
   <div className="site-wrapper">
     <Header />
 
-    <div className="cover">{props.children}</div>
+    <div className="content-wrapper">{props.children}</div>
     
     
     
@@ -13,12 +13,13 @@ const Layout = props => (
     <Footer />
     
     <style jsx global>{`
-      *,
-      *::before,
-      *::after {
-        box-sizing: border-box;
-      }
+      // *,
+      // *::before,
+      // *::after {
+      //   box-sizing: border-box;
+      // }
 
+      
       body {
         margin: 0;
         font-size: 20px;
