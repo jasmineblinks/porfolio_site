@@ -6,6 +6,19 @@ const Contact= () => (
         <h1>Get In Touch</h1>
       </div>
 
+      <div>
+      <div className="contact-text">
+        <h6>River State,Nigeria</h6>
+        <p>#21 Potts Johnson street</p>
+        <h6>00 (958) 9865 562</h6>
+        <p>Mon to Fri 9am to 5pm</p>
+        <h6>jasmineconcept12@gmail.com</h6>
+      
+      </div>
+      <div>
+
+      </div>
+      </div>
 
 
       <style jsx>{`
@@ -25,6 +38,17 @@ const Contact= () => (
       url("/static/lap.jpg");
       height:100px;
       color:#fff;
+      }
+      .contact-text{
+        color:#000;
+      }
+      .contact-text h6{
+        font-weight:bold;
+        font-family:Fira Sans;
+      }
+      .contact-text p{
+        font-size:12px;
+        font-family:Fira Sans;
       }
 
       `}</style>
