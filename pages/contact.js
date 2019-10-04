@@ -9,6 +9,10 @@ const Contact= () => (
 
 
       <style jsx>{`
+      *{
+        padding:0;
+        margin:0;
+      }
       .contact-head{
         text-align: center;
       margin:auto;
@@ -17,7 +21,8 @@ const Contact= () => (
         rgba(232, 104, 93, 0.45),
         rgba(232, 104, 93, 0.45) 
       
-      ), url("/static/cu.jpeg");
+      ), 
+      url("/static/lap.jpg");
       height:100px;
       color:#fff;
       }
