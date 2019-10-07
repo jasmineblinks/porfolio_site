@@ -12,21 +12,21 @@ const Contact= () => (
         <h1>Get In Touch</h1>
       </div>
 
-      <div>
+      <div className="contact-info">
       <div className="contact-text">
-      <div>
+      <div className="info_item">
       <h6><FontAwesomeIcon icon={faMapMarkerAlt} />
 River State,Nigeria</h6>
     <p>#21 Potts Johnson street</p>
    </div>
         
-        <div>
+        <div className="info_item">
        
         <h6><FontAwesomeIcon icon={faPhoneAlt} />
         00 (958) 9865 562</h6>        
         <p>Mon to Fri 9am to 5pm</p>
         </div>
-        <div>
+        <div className="info_item">
         <h6><FontAwesomeIcon icon={faEnvelope} />
         jasmineconcept12@gmail.com</h6>
         </div>
@@ -67,6 +67,13 @@ River State,Nigeria</h6>
         font-size:12px;
         font-family:Fira Sans;
       }
+      .contact-info{
+        padding-top:40px;
+      }
+      .info_item{
+        margin-left:30px;
+      }
+    
 
       `}</style>
     </Layout>
