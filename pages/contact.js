@@ -1,5 +1,11 @@
 
 import Layout from '../components/layout';
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { faPhoneAlt} from "@fortawesome/free-solid-svg-icons";
+import { faMapMarkerAlt } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
+
 const Contact= () => (
     <Layout title="contact">
       <div className="contact-head">
@@ -8,10 +14,17 @@ const Contact= () => (
 
       <div>
       <div className="contact-text">
-        <h6>River State,Nigeria</h6>
-        <p>#21 Potts Johnson street</p>
-        <h6>00 (958) 9865 562</h6>
+      <div>
+      <FontAwesomeIcon icon={faMapMarkerAlt} />
+    <h6>River State,Nigeria</h6>
+    <p>#21 Potts Johnson street</p>
+  </div>
+        
+       
+        <FontAwesomeIcon icon={faPhoneAlt} />
+        <h6>00 (958) 9865 562</h6>        
         <p>Mon to Fri 9am to 5pm</p>
+        <FontAwesomeIcon icon={faEnvelope} />
         <h6>jasmineconcept12@gmail.com</h6>
       
       </div>
