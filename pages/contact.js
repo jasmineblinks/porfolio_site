@@ -15,17 +15,21 @@ const Contact= () => (
       <div>
       <div className="contact-text">
       <div>
-      <FontAwesomeIcon icon={faMapMarkerAlt} />
-    <h6>River State,Nigeria</h6>
+      <h6><FontAwesomeIcon icon={faMapMarkerAlt} />
+River State,Nigeria</h6>
     <p>#21 Potts Johnson street</p>
-  </div>
+   </div>
         
+        <div>
        
-        <FontAwesomeIcon icon={faPhoneAlt} />
-        <h6>00 (958) 9865 562</h6>        
+        <h6><FontAwesomeIcon icon={faPhoneAlt} />
+        00 (958) 9865 562</h6>        
         <p>Mon to Fri 9am to 5pm</p>
-        <FontAwesomeIcon icon={faEnvelope} />
-        <h6>jasmineconcept12@gmail.com</h6>
+        </div>
+        <div>
+        <h6><FontAwesomeIcon icon={faEnvelope} />
+        jasmineconcept12@gmail.com</h6>
+        </div>
       
       </div>
       <div>
