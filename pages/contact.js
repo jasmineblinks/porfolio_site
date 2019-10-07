@@ -32,8 +32,15 @@ River State,Nigeria</h6>
         </div>
       
       </div>
-      <div>
-
+      <div className="contactform">
+        <h4>Send A Message</h4>
+        <form>
+        <input type="text" name="usernme" placeholder="Name" required="name" id="name" />        
+        <input type="email" name="usernme" placeholder="Email" required="email" id="username" />
+         <input type="text" name="pswrd" placeholder="Subject" required="subject" id="subeject" />
+         <textarea class="input" name="message" placeholder="Enter your Message"></textarea>
+								<button >Send Message</button>
+        </form>
       </div>
       </div>
 
@@ -74,6 +81,8 @@ River State,Nigeria</h6>
         margin-left:50px;
       }
     
+
+      
 
       `}</style>
     </Layout>

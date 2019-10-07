@@ -8,7 +8,7 @@ const Header = () => (
     <Menu/>
     <style jsx>{`
     .header-wrapper{
-        background-color:#000;
+        background-color:#fff;
         // padding:5px;
         height:65px;
         display:flex;
