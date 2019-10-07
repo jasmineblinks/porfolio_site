@@ -71,7 +71,7 @@ River State,Nigeria</h6>
         padding-top:40px;
       }
       .info_item{
-        margin-left:30px;
+        margin-left:50px;
       }
     
 
