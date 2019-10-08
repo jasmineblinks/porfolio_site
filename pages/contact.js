@@ -90,9 +90,7 @@ River State,Nigeria</h6>
        color:#E8685D;
     }
       
-      // .contactform {
-      // }
-       
+      
     
     
    
