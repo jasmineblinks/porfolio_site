@@ -32,13 +32,13 @@ River State,Nigeria</h6>
         </div>
       
       </div>
-      <div className="contactform">
+      <div >
         <h4>Send A Message</h4>
-        <form>
-        <input type="text" name="usernme" placeholder="Name" required="name" id="name" />        
-        <input type="email" name="usernme" placeholder="Email" required="email" id="username" />
-         <input type="text" name="pswrd" placeholder="Subject" required="subject" id="subeject" />
-         <textarea class="input" name="message" placeholder="Enter your Message"></textarea>
+        <form className="contactform">
+        <input type="text" name="name" placeholder="Name" required="name" id="name" />        
+        <input type="email" name="email" placeholder="Email" required="email" id="username" />
+        <input type="text" name="subject" placeholder="Subject" required="subject" id="subeject" />
+         <textarea className="area-input" name="message" placeholder="Enter your Message"></textarea>
 								<button >Send Message</button>
         </form>
       </div>
@@ -80,9 +80,56 @@ River State,Nigeria</h6>
       .info_item{
         margin-left:50px;
       }
+
+       {
+        background-color:#E8685D;
+      }
     
 
+     
+    
+    
+    
+    .contactform input{
+        margin: 10px;
+        padding: 8px;
+    
+    }
+    
+    .contactform input{
+        border-radius: 8px;
+        border: solid 1px #000;
+        width: 50%;
+
+    }
+         
+    .area-input{
       
+      border: solid 1px #000;
+      width: 50%;
+
+  }
+    .contactform button{
+        padding:10px;
+        border-radius:50px;
+        border:1px solid #E8685D;
+        width:150px;
+        background-color:#E8685D;
+        color:#fff;
+       
+    }
+    
+    // .contactform label{
+    //     margin: 10px 2px 10px -15px;
+    //     padding: 8px;
+    // } 
+      .contact-info{
+        display:flex;
+        justify-content:space between;
+      }
+      h4{
+        color:#000;
+      }
 
       `}</style>
     </Layout>
