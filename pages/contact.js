@@ -82,7 +82,7 @@ River State,Nigeria</h6>
       }
 
        {
-        background-color:#E8685D;
+      color:#E8685D;
       }
     
 
