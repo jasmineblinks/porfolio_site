@@ -15,24 +15,24 @@ const Contact= () => (
       <div className="contact-info">
       <div className="contact-text">
       <div className="info_item">
-      <h6><FontAwesomeIcon icon={faMapMarkerAlt} />
+      <h6> <span className="font"><FontAwesomeIcon icon={faMapMarkerAlt} /></span>
 River State,Nigeria</h6>
     <p>#21 Potts Johnson street</p>
    </div>
         
         <div className="info_item">
        
-        <h6><FontAwesomeIcon icon={faPhoneAlt} />
+        <h6>  <span className="font"><FontAwesomeIcon icon={faPhoneAlt} /></span>  
         00 (958) 9865 562</h6>        
         <p>Mon to Fri 9am to 5pm</p>
         </div>
         <div className="info_item">
-        <h6><FontAwesomeIcon icon={faEnvelope} />
+        <h6> <span className="font"> <FontAwesomeIcon icon={faEnvelope} /></span> 
         jasmineconcept12@gmail.com</h6>
         </div>
       
       </div>
-      <div >
+      <div className="form-text" >
         <h4>Send A Message</h4>
         <form className="contactform">
         <input type="text" name="name" placeholder="Name" required="name" id="name" />        
@@ -65,6 +65,8 @@ River State,Nigeria</h6>
       }
       .contact-text{
         color:#000;
+        line-height:30px;
+        
       }
       .contact-text h6{
         font-weight:bold;
@@ -75,14 +77,20 @@ River State,Nigeria</h6>
         font-family:Fira Sans;
       }
       .contact-info{
-        padding-top:40px;
-        display:flex;
-        justify-content:space between;
+        padding-top:40px;     
+          display:flex;
+          padding-left:100px;
+        
       }
       .info_item{
         margin-left:50px;
       }
-
+      .form-text{
+        
+      }
+      .form-text{
+        padding-left:250px;
+      }
        
     .icon{
 
@@ -95,16 +103,24 @@ River State,Nigeria</h6>
     
    
     
-    .contactform input, .area-input{
+    .contactform input{
           margin: 10px;
           padding: 8px;    
           border-radius: 8px;
           border: solid 1px #000;
           display:block;
-           width: 100%;
+            width: 150%;
 
      }
-         
+     .area-input{
+      margin: 10px;
+      padding: 30px;    
+      border-radius: 8px;
+      border: solid 1px #000;
+      display:block;
+      width: 130%;
+      
+     }   
   
     .contactform button{
         padding:10px;
@@ -115,7 +131,13 @@ River State,Nigeria</h6>
         color:#fff;
        
     }
-    
+    .font{
+      margin:5px;
+      color:#E8685D;
+    }
+    .info_item p{
+      margin-left:20px;
+    }
     
       
       h4{
