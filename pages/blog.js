@@ -10,7 +10,7 @@ const Blog = () => (
       margin : 0px;
        padding: 0px;
     }
-     .about-head{
+     h1{
        text-align: center;
       margin:auto;
        font-family:BlinkMacSystemFont;
