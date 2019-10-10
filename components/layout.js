@@ -5,7 +5,7 @@ const Layout = props => (
   <div className="site-wrapper">
     <Header />
 
-    <div className="cover">{props.children}</div>
+    <div className="content-wrapper">{props.children}</div>
     
     
     
