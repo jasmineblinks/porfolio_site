@@ -17,9 +17,9 @@ const Homepage = () => (
     </div>
     <ul className="my_link">
       <li>Join me here</li>
-      <li><Link href='https://www.facebook.com/pueneh.faithkb'><a><img src="/static/fa.png" width="20px" height="20px" /></a></Link></li>
-      <li><Link href='https://github.com/jasmineblinks'><a><img src="/static/gt.png" width="20px" height="20px" /></a></Link></li>
-      <li><Link href='https://twitter.com/puenehfaith'><a><img src="/static/twi.png" width="20px" height="20px" /></a></Link></li>
+      <li><Link href='https://www.facebook.com/pueneh.faithkb'><a><img src="/static/af.png" width="20px" height="20px" /></a></Link></li>
+      <li><Link href='https://github.com/jasmineblinks'><a><img src="/static/git.png" width="20px" height="20px" /></a></Link></li>
+      <li><Link href='https://twitter.com/puenehfaith'><a><img src="/static/at.png" width="20px" height="20px" /></a></Link></li>
     
 
     </ul>
