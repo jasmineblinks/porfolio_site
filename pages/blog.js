@@ -1,9 +1,31 @@
 
 import Layout from '../components/layout';
+import Link from 'next/link';
+
 const Blog = () => (
   <Layout title="Blog">
         
       <h1>Blog page</h1>
+      <div className="card">
+        <div>
+        <img src="/static/com.jpeg" width="500px" height="200px" />
+        <Link href='https://www.facebook.com/pueneh.faithkb'><a>My Experience With Zeit</a></Link>
+        </div>
+        <div>
+        <img src="/static/com.jpeg" width="500px" height="200px" />
+        <Link href='https://www.facebook.com/pueneh.faithkb'><a>My Experience With Zeit</a></Link>
+        </div>
+        <div>
+        <img src="/static/com.jpeg" width="500px" height="200px" />
+        <Link href='https://www.facebook.com/pueneh.faithkb'><a>My Experience With Zeit</a></Link>
+        </div>
+        <div>
+        <img src="/static/com.jpeg" width="500px" height="200px" />
+        <Link href='https://www.facebook.com/pueneh.faithkb'><a>My Experience With Zeit</a></Link>
+        </div>
+
+
+      </div>
 
       <style jsx>{`
     *{
@@ -23,6 +45,10 @@ const Blog = () => (
       color:#fff;
       
 
+     }
+
+     .card{
+       column:4;
      }
      `}</style>
     </Layout>
