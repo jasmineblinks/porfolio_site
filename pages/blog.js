@@ -13,7 +13,7 @@ const Blog = () => (
         </div>
         <div>
         <img src="/static/com.jpeg" width="500px" height="200px" />
-        <Link href='https://www.facebook.com/pueneh.faithkb'><a>My Experience With Zeit</a></Link>
+        <Link href='https://www.facebook.com/pueneh.faithkb'><a>How to build static site using Next.js</a></Link>
         </div>
         <div>
         <img src="/static/com.jpeg" width="500px" height="200px" />
@@ -48,7 +48,8 @@ const Blog = () => (
      }
 
      .card{
-       column:4;
+       padding-top:25px;
+       columns:4;
      }
      `}</style>
     </Layout>
