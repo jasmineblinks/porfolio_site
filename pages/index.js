@@ -1,28 +1,42 @@
-import Layout from '../components/layout';
-import Link from 'next/link';
+import Layout from "../components/layout";
+import Link from "next/link";
 
 const Homepage = () => (
-  
-    <Layout>
-
-    
-    
+  <Layout>
     <div className="cover">
-    <div className="text">
-    <h1><span className="tex">Hi, I am</span><br/> Faith Pueneh </h1>
-    <h2>Front-end Web Developer</h2>
-    
-    <button>Know More</button>
-    
-    </div>
-    <ul className="my_link">
-      <li>Join me here</li>
-      <li><Link href='https://www.facebook.com/pueneh.faithkb'><a><img src="/static/fb.png" width="20px" height="20px" /></a></Link></li>
-      <li><Link href='https://github.com/jasmineblinks'><a><img src="/static/git.png" width="20px" height="20px" /></a></Link></li>
-      <li><Link href='https://twitter.com/puenehfaith'><a><img src="/static/tw.png" width="20px" height="20px" /></a></Link></li>
-    
+      <div className="text">
+        <h1>
+          <span className="tex">Hi, I am</span>
+          <br /> Faith Pueneh{" "}
+        </h1>
+        <h2>Front-end Web Developer</h2>
 
-    </ul>
+        <button>Know More</button>
+      </div>
+      <ul className="my_link">
+        <li>Join me here</li>
+        <li>
+          <Link href="https://www.facebook.com/pueneh.faithkb">
+            <a>
+              <img src="/static/af.png" width="20px" height="20px" />
+            </a>
+          </Link>
+        </li>
+        <li>
+          <Link href="https://github.com/jasmineblinks">
+            <a>
+              <img src="/static/git.png" width="20px" height="20px" />
+            </a>
+          </Link>
+        </li>
+        <li>
+          <Link href="https://twitter.com/puenehfaith">
+            <a>
+              <img src="/static/at.png" width="20px" height="20px" />
+            </a>
+          </Link>
+        </li>
+      </ul>
     </div>
     <div className="works">
       <div className="cards">
@@ -30,10 +44,9 @@ const Homepage = () => (
         <div></div>
         <div></div>
       </div>
-      </div>
+    </div>
 
-    
-    <style jsx >{`
+    <style jsx>{`
       *,
       *::before,
       *::after {
@@ -46,16 +59,15 @@ const Homepage = () => (
         line-height: 1.7;
         font-weight: 400;
         overflow-x: hidden;
-      
-    
-        
-        color: #E8685D;
-        font-family:  BlinkMacSystemFont, Roboto, 'Segoe UI', 'Fira Sans', 'Helvetica Neue', sans-serif;
+
+        color: #e8685d;
+        font-family: BlinkMacSystemFont, Roboto, "Segoe UI", "Fira Sans",
+          "Helvetica Neue", sans-serif;
         text-rendering: optimizeLegibility;
       }
 
       a {
-        color: #E8685D;
+        color: #e8685d;
         text-decoration: none;
       }
 
@@ -90,115 +102,98 @@ const Homepage = () => (
       .cover {
         /* The image used */
         background: linear-gradient(
-          rgba(232, 104, 93, 0.45),
-          rgba(232, 104, 93, 0.45) 
-        
-        ), url("/static/cu.jpeg");
-  
-       
-        
-      
+            rgba(232, 104, 93, 0.45),
+            rgba(232, 104, 93, 0.45)
+          ),
+          url("/static/cu.jpeg");
+
         /* Set a specific height */
-        min-height: 500px; 
-      
+        min-height: 500px;
+
         /* Create the parallax scrolling effect */
         background-attachment: fixed;
         background-position: center;
         background-repeat: no-repeat;
-        background-size: cover; 
-        
-       
-
+        background-size: cover;
       }
-      .tex{
-        font-size:30px;
-        font-family:BlinkMacSystemFont;
+      .tex {
+        font-size: 30px;
+        font-family: BlinkMacSystemFont;
       }
-      .text{
-        color:#fff;
-        text-align:left;
-        padding-top:20px;
-        margin-left:30px;
-        font-size:30px;
-        line-height:20px; 
-        
+      .text {
+        color: #fff;
+        text-align: left;
+        padding-top: 20px;
+        margin-left: 30px;
+        font-size: 30px;
+        line-height: 20px;
       }
 
-      .text h1{
-        line-height:45px;
+      .text h1 {
+        line-height: 45px;
       }
 
-
-      .text button{
-        color:#E8685D;
-        background-color:#fff;
-        padding:10px;
-        border-radius:50px;
-        width:150px;
+      .text button {
+        color: #e8685d;
+        background-color: #fff;
+        padding: 10px;
+        border: 1px solid #fff;
+        border-radius: 50px;
+        width: 150px;
       }
 
       // .text button:hover{
       //   color:#fff;
       //   background-color:transparent;
       //   padding:10px;
-      //   border:1px solid #fff;
+      //
       //   border-radius:50px;
       //   width:150px
       // }
 
-     
-       .my_link{
-        display:flex;
-        list-style:none; 
-        margin-left:-9px;
-        color:#fff;
-                    
+      .my_link {
+        display: flex;
+        list-style: none;
+        margin-left: -9px;
+        color: #fff;
       }
 
-       .my_link li{
-        margin:5px;
-        
-
+      .my_link li {
+        margin: 5px;
       }
-      .text h2{
-        font-size:20px;
-        font-family:Fira Sans;
-        
+      .text h2 {
+        font-size: 20px;
+        font-family: Fira Sans;
       }
-      .works{
-        width:100%;
-        min-height:200px;
-        background-color:#fff;
-
+      .works {
+        width: 100%;
+        min-height: 200px;
+        background-color: #fff;
       }
       @media (max-width: 360px) {
         .text {
           left: 30px;
           right: 30px;
           padding: 20px;
-          
         }
-       .text h1 {
+        .text h1 {
           font-size: 28px;
         }
-        .tex{
+        .tex {
           font-size: 20px;
         }
-        .text button{
-          width:100px ;
-          padding:5px;
+        .text button {
+          width: 100px;
+          padding: 5px;
         }
-        .text h2{
-          font-size:15px;
-          font-family:Fira Sans;
-          
+        .text h2 {
+          font-size: 15px;
+          font-family: Fira Sans;
         }
-        .my_link{
-          font-size:15px;
+        .my_link {
+          font-size: 15px;
         }
-
       }
-
     `}</style>
   </Layout>
 );
