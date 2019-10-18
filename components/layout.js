@@ -13,12 +13,16 @@ const Layout = props => (
     <Footer />
     
     <style jsx global>{`
-      *,
-      *::before,
-      *::after {
-        box-sizing: border-box;
-      }
-
+      // *,
+      // *::before,
+      // *::after {
+      //   box-sizing: border-box;
+      // }
+      // *{
+      //   margin : 0px; 
+      //   padding: 0px
+      // }
+      
       body {
         margin: 0;
         font-size: 20px;
