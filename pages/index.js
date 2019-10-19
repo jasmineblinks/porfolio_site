@@ -1,6 +1,7 @@
 import Layout from "../components/layout";
 import Link from "next/link";
 
+
 const Homepage = () => (
   <Layout>
     <div className="cover">
@@ -102,8 +103,8 @@ const Homepage = () => (
       .cover {
         /* The image used */
         background: linear-gradient(
-            rgba(232, 104, 93, 0.45),
-            rgba(232, 104, 93, 0.45)
+            rgba(232, 104, 93, 0.60),
+            rgba(232, 104, 93, 0.50)
           ),
           url("/static/cu.jpeg");
 
