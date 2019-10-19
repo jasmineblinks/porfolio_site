@@ -117,7 +117,7 @@ River State,Nigeria</h6>
       border-radius: 8px;
       border: solid 1px #000;
       display:block;
-      width: 130%;
+      width: 150%;
       
      }   
   
@@ -144,10 +144,7 @@ River State,Nigeria</h6>
       }
       `}</style>
     </Layout>
-    <div className="container">
-        <Layout/>
-      <h1>Contact Us</h1>
-    </div>
+    
   );
 
   export default Contact;
