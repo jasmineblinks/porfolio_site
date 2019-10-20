@@ -10,7 +10,7 @@ const Menu = () => (
       </Link>
     </li>
     <li>
-      <Link href="/About">
+      <Link href="/About-page">
         <a>About </a>
       </Link>
     </li>
@@ -20,7 +20,7 @@ const Menu = () => (
       </Link>
     </li>
     <li>
-      <Link href="/Blog">
+      <Link href="/Blog-page">
         <a>Blog</a>
       </Link>
     </li>

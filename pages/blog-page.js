@@ -2,7 +2,7 @@ import Layout from "../components/layout";
 import Link from "next/link";
 
 const Blog = () => (
-  <Layout title="Blog">
+  <Layout title="Blog-page">
     <h1>Blog page</h1>
     <div className="card">
       <div>
