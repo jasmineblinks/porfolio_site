@@ -7,11 +7,13 @@ const Footer = () => (
         background-color:#E8685D;
         color:#fff;
         margin-top: 80px;
-        padding: 80px 30px;
+        padding: 25px 20px;
         
       }
       .copyright {
         margin-bottom: 20px;
+        text-align: center;
+        
       }
       `}</style>
     </div>
