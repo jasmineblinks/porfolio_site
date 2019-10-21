@@ -1,5 +1,5 @@
 
-import Layout from '../components/Layout';
+import Layout from '../components/layout';
 
 const About = () => (
   <Layout title="About-page">

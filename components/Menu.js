@@ -10,17 +10,17 @@ const Menu = () => (
       </Link>
     </li>
     <li>
-      <Link href="/About-page">
+      <Link href="/about-page">
         <a>About </a>
       </Link>
     </li>
     <li>
-      <Link href="/Contact">
+      <Link href="/contact">
         <a>Contact </a>
       </Link>
     </li>
     <li>
-      <Link href="/Blog-page">
+      <Link href="/blog-page">
         <a>Blog</a>
       </Link>
     </li>
