@@ -8,6 +8,8 @@ const Footer = () => (
         color:#fff;
         margin-top: 80px;
         padding: 25px 20px;
+        bottom:0;
+        width:100%;
         
         
       }

@@ -23,12 +23,7 @@ const Blog = () => (
           <a>My Experience With Zeit</a>
         </Link>
       </div>
-      <div>
-        <img src="/static/com.jpeg" width="500px" height="200px" />
-        <Link href="https://www.facebook.com/pueneh.faithkb">
-          <a>My Experience With Zeit</a>
-        </Link>
-      </div>
+      
     </div>
 
     <style jsx>{`
@@ -53,7 +48,7 @@ const Blog = () => (
       .card {
         padding-top: 25px;
         columns: 4;
-        bottom:0;
+        
       }
     `}</style>
   </Layout>
