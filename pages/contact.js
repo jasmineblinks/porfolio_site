@@ -61,6 +61,7 @@ River State,Nigeria</h6>
       
       ), 
       url("/static/lap.jpg");
+      background-repeat:no-repeat;
       height:100px;
       color:#fff;
       }

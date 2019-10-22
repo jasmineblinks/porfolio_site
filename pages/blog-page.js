@@ -45,7 +45,7 @@ const Blog = () => (
             rgba(232, 104, 93, 0.45)
           ),
           url("/static/lap.jpg");
-          background-repeat-no repeat;
+          background-repeat:no-repeat;
         height: 100px;
         color: #fff;
       }
