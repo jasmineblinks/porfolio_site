@@ -9,6 +9,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const Contact= () => (
     <Layout title="contact">
+      <div className="contact-content">
       <div className="contact-head">
         <h1>Get In Touch</h1>
       </div>
@@ -44,6 +45,7 @@ River State,Nigeria</h6>
         </form>
       </div>
       </div>
+      </div>
 
 
       <style jsx>{`
@@ -51,8 +53,8 @@ River State,Nigeria</h6>
         padding:0;
         margin:0;
       }
-      body{
-        min-height:140px;
+      .content-contact{
+        min-height:calc(100vh-140px);
       }
       .contact-head{
         text-align: center;
