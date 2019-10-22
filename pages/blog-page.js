@@ -31,6 +31,9 @@ const Blog = () => (
         margin: 0px;
         padding: 0px;
       }
+      body{
+        min-height:140px;
+      }
       h1 {
         text-align: center;
         margin: auto;
