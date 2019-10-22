@@ -54,7 +54,7 @@ River State,Nigeria</h6>
         margin:0;
       }
       .content-contact{
-        margin-top:80px;
+        margin-top:150px;
       }
       .contact-head{
         text-align: center;
