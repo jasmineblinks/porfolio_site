@@ -34,7 +34,8 @@ const Blog = () => (
         padding: 0px;
       }
       .blog-content{
-       margin-top:150px;
+       margin-top:80px;
+       bottom:0;
       }
       h1 {
         text-align: center;
