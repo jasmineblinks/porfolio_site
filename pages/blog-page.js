@@ -4,7 +4,7 @@ import Link from "next/link";
 const Blog = () => (
   <Layout title="Blog-page">
     <h1>Blog page</h1>
-    <div className="card">
+    {/* <div className="card">
       <div>
         <img src="/static/com.jpeg" width="500px" height="200px" />
         <Link href="https://www.facebook.com/pueneh.faithkb">
@@ -29,7 +29,7 @@ const Blog = () => (
           <a>My Experience With Zeit</a>
         </Link>
       </div>
-    </div>
+    </div> */}
 
     <style jsx>{`
       * {
@@ -45,7 +45,7 @@ const Blog = () => (
             rgba(232, 104, 93, 0.45)
           ),
           url("/static/lap.jpg");
-          background-repeat:no-repeat;
+          background-repeat:no repeat;
         height: 100px;
         color: #fff;
       }
