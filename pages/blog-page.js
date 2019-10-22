@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const Blog = () => (
   <Layout title="Blog-page">
-    <div className="blog-content">
+    
     <h1>Blog page</h1>
     <div className="card">
       <div>
@@ -26,17 +26,14 @@ const Blog = () => (
       </div>
       
     </div>
-    </div>
+    
 
     <style jsx>{`
       * {
         margin: 0px;
         padding: 0px;
       }
-      .blog-content{
-       margin-top:80px;
-       bottom:0;
-      }
+     
       h1 {
         text-align: center;
         margin: auto;
