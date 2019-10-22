@@ -168,7 +168,6 @@ const Homepage = () => (
       }
       .works {
         width: 100%;
-        min-height: 200px;
         background-color: #fff;
       }
       @media (max-width: 360px) {
