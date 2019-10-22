@@ -34,7 +34,7 @@ const Blog = () => (
         padding: 0px;
       }
       .blog-content{
-        min-height:calc(100vh-140px);
+       margin-top:150px;
       }
       h1 {
         text-align: center;
