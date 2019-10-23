@@ -24,6 +24,13 @@ const Blog = () => (
           <a>My Experience With Zeit</a>
         </Link>
       </div>
+      <div>
+        <img src="/static/com.jpeg" width="500px" height="200px" />
+        <Link href="https://www.facebook.com/pueneh.faithkb">
+          <a>My Experience With Zeit</a>
+        </Link>
+      </div>
+      
       
     </div>
     
@@ -49,7 +56,7 @@ const Blog = () => (
       }
 
       .card {
-        padding-top: 25px;
+        padding-top: 35px;
          margin-left:30px;
          margin-right:30px;
         columns: 4;
