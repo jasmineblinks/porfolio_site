@@ -51,6 +51,8 @@ const Blog = () => (
       .card {
         padding-top: 25px;
         columns: 4;
+        min-height: calc(100vh - 40px);
+        
         
       }
     `}</style>
