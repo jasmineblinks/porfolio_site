@@ -43,18 +43,26 @@ const Menu = () => (
       padding-bottom: 3px;
       border-bottom: 2px solid #E8685D;
     }
-    @media (max-width: 360px) {
+    // @media (max-width: 360px) {
+    //   .menu {
+    //     display: block;
+    //     margin-top: 20px;
+    //   }
+    //   .menu li {
+    //     display: inline-block;
+    //   }
+    //   .menu li a {
+    //     font-size: 18px;
+    //   }
+    // }
+
+    @media only screen and (min-width: 335px) and (max-width: 959px){
+     
       .menu {
-        display: block;
-        margin-top: 20px;
+         display: block;
+          
       }
-      .menu li {
-        display: inline-block;
-      }
-      .menu li a {
-        font-size: 18px;
-      }
-    }
+  }
     `}</style>
   </ul>
 );

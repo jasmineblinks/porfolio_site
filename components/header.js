@@ -21,7 +21,7 @@ const Header = () => (
         .header-wrapper{
             background-color:#fff;
              padding:30px;
-            // height:65px;
+             height:65px;
             display:block;
             text-align:center;
         
