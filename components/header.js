@@ -22,7 +22,7 @@ const Header = () => (
             background-color:#fff;
              padding:30px;
              height:65px;
-            display:block;
+            display:flex;
             text-align:center;
         
             

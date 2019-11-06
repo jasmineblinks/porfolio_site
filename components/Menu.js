@@ -56,13 +56,13 @@ const Menu = () => (
     //   }
     // }
 
-    @media only screen and (min-width: 335px) and (max-width: 959px){
+  //   @media only screen and (min-width: 335px) and (max-width: 959px){
      
-      .menu {
-         display: block;
+  //     .menu {
+  //        display: block;
           
-      }
-  }
+  //     }
+  // }
     `}</style>
   </ul>
 );
