@@ -23,9 +23,7 @@ const Header = () => (
             background-color:#fff;
             height:45px;
             display:block;
-            // justify-content:space-between;
-            // align-items: center;
-            // text-align:center;
+            
             
         }
     }
