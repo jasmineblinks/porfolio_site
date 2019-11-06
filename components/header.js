@@ -20,8 +20,8 @@ const Header = () => (
     @media only screen and (min-width: 335px) and (max-width: 959px){
         .header-wrapper{
             background-color:#fff;
-            // padding:5px;
-            height:65px;
+             padding:30px;
+            // height:65px;
             display:block;
             text-align:center;
         
