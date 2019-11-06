@@ -18,12 +18,16 @@ const Header = () => (
         
     }
         
-        @media (max-width: 360px) {
-            .header-wrapper {
-              display: block;
-              text-align: center;
-              height:100px;
+    @media only screen and (min-width: 335px) and (max-width: 959px){
+        .header-wrapper{
+            background-color:#fff;
+            height:45px;
+            display:block;
+            // justify-content:space-between;
+            // align-items: center;
+            // text-align:center;
             
+        }
     }
     `}</style>
 </div>
