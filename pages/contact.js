@@ -95,7 +95,7 @@ River State,Nigeria</h6>
         
       }
       .form-text{
-        padding-left:250px;
+        // padding-left:250px;
       }
        
     .icon{
@@ -114,7 +114,7 @@ River State,Nigeria</h6>
           border-radius: 8px;
           border: solid 1px #000;
           display:block;
-            width: 150%;
+            width: 100px;
      }
      .area-input{
       margin: 10px;
@@ -122,7 +122,7 @@ River State,Nigeria</h6>
       border-radius: 8px;
       border: solid 1px #000;
       display:block;
-      width: 150%;
+      width: 100px;
       
      }   
   
@@ -147,6 +147,109 @@ River State,Nigeria</h6>
       h4{
         color:#000;
       }
+
+
+
+
+
+      @media only screen and (min-width: 335px) and (max-width: 959px){
+
+        .contact-head{
+          text-align: center;
+        margin:auto;
+         font-family:BlinkMacSystemFont;
+        background: linear-gradient(
+          rgba(232, 104, 93, 0.45),
+          rgba(232, 104, 93, 0.45) 
+        
+        ), 
+        url("/static/lap.jpg");
+        background-repeat:no-repeat;
+        height:100px;
+        color:#fff;
+        }
+        .contact-text{
+          color:#000;
+          line-height:30px;
+          
+        }
+        .contact-text h6{
+          font-weight:bold;
+          font-family:Fira Sans;
+        }
+        .contact-text p{
+          font-size:12px;
+          font-family:Fira Sans;
+        }
+        .contact-info{
+          padding-top:40px;     
+            display:block;
+            padding-left:10px;
+            // min-height: calc(100vh - 40px);
+          
+        }
+        .info_item{
+          // margin-left:50px;
+        }
+        .form-text{
+          
+        }
+        .form-text{
+          // padding-left:250px;
+        }
+         
+      .icon{
+      
+         color:#E8685D;
+      }
+        
+        
+      
+      
+     
+      
+      .contactform input{
+            margin: 10px;
+            padding: 8px;    
+            border-radius: 8px;
+            border: solid 1px #000;
+            display:block;
+              width: 150%;
+       }
+       .area-input{
+        margin: 10px;
+        padding: 30px;    
+        border-radius: 8px;
+        border: solid 1px #000;
+        display:block;
+        width: 150%;
+        
+       }   
+    
+      .contactform button{
+          padding:10px;
+          border-radius:50px;
+          border:1px solid #E8685D;
+          width:150px;
+          background-color:#E8685D;
+          color:#fff;
+         
+      }
+      .font{
+        margin:5px;
+        color:#E8685D;
+      }
+      .info_item p{
+        margin-left:20px;
+      }
+      
+        
+        h4{
+          color:#000;
+        }
+  
+        
+     }
       `}</style>
     </Layout>
     
