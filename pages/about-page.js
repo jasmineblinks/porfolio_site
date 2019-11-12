@@ -65,11 +65,14 @@ const About = () => (
         .about-text img {
               float: left;
               width:150px;
+              margin-right:10px;
               // display: block;
               // margin: 0 auto 30px;
             }
             .about-text{
+              font-size:16px;
               text-align:justify;
+             
             }
     }
       // @media (max-width: 600px) {
