@@ -8,11 +8,11 @@ const Logo = () => (
   
 
 <style jsx>{`
-  @media only screen and (min-width: 335px) and (max-width: 959px){
-   .logo{
-    width:150px;
-   }
-}
+//   @media only screen and (min-width: 335px) and (max-width: 959px){
+//    img{
+//    max- width:200px;
+//    }
+// }
 `}</style>
 </div>
 );

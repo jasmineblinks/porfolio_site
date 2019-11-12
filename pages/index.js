@@ -170,30 +170,37 @@ const Homepage = () => (
         width: 100%;
         background-color: #fff;
       }
-      @media (max-width: 360px) {
-        .text {
-          left: 30px;
-          right: 30px;
-          padding: 20px;
-        }
-        .text h1 {
-          font-size: 28px;
-        }
-        .tex {
-          font-size: 20px;
-        }
-        .text button {
-          width: 100px;
-          padding: 5px;
-        }
-        .text h2 {
-          font-size: 15px;
-          font-family: Fira Sans;
-        }
-        .my_link {
-          font-size: 15px;
-        }
-      }
+
+
+      @media only screen and (min-width: 335px) and (max-width: 959px){
+            img{
+         max-width:100%;
+           }
+           .text {
+            left: 30px;
+            right: 30px;
+            padding: 20px;
+          }
+          .text h1 {
+            font-size: 28px;
+          }
+          .tex {
+            font-size: 20px;
+          }
+          .text button {
+            width: 100px;
+            padding: 5px;
+          }
+          .text h2 {
+            font-size: 15px;
+            font-family: Fira Sans;
+          }
+          .my_link {
+            font-size: 15px;
+          }
+          }
+      
+     
     `}</style>
   </Layout>
 );
