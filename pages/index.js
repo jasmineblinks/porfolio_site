@@ -173,12 +173,10 @@ const Homepage = () => (
 
 
       @media only screen and (min-width: 335px) and (max-width: 959px){
-        // .cover{
-        //   text-align:center;
-        //   line-height:15px;
-        // }
+       
            
            .text {
+          
              text-align:center;
              line-height:15px;
             // left: 30px;
