@@ -59,7 +59,7 @@ const Menu = () => (
   //   @media only screen and (min-width: 335px) and (max-width: 959px){
      
   //     .menu {
-  //        display: block;
+  //        margin-right:10px;
           
   //     }
   // }

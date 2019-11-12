@@ -10,7 +10,9 @@ const Logo = () => (
 <style jsx>{`
   @media only screen and (min-width: 335px) and (max-width: 959px){
    img{
-   max- width:200px;
+   width:60px;
+   margin-top:15px;
+   margin-left:5px;
    }
 }
 `}</style>

@@ -58,10 +58,7 @@ const Layout = props => (
       //   margin: 0 0 10px;
       // }
 
-      img {
-        max-width: 100%;
-      }
-
+     
       /* Layout */
 
       .cover {
@@ -148,6 +145,8 @@ const Layout = props => (
         background-color:#fff;
 
       }
+
+
 
     `}</style>
   </div>

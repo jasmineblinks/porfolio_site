@@ -94,9 +94,9 @@ const Homepage = () => (
       //   margin: 0 0 10px;
       // }
 
-      img {
-        max-width: 100%;
-      }
+      // img {
+      //   max-width: 100%;
+      // }
 
       /* Layout */
 
@@ -173,9 +173,7 @@ const Homepage = () => (
 
 
       @media only screen and (min-width: 335px) and (max-width: 959px){
-            img{
-         max-width:100%;
-           }
+           
            .text {
             left: 30px;
             right: 30px;

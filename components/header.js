@@ -20,7 +20,7 @@ const Header = () => (
     @media only screen and (min-width: 335px) and (max-width: 959px){
         .header-wrapper{
             background-color:#fff;
-            margin-left:20px;
+            // margin-left:20px;
             //  height:65px;
             display:flex;
             text-align:center;
