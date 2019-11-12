@@ -61,13 +61,24 @@ const About = () => (
         float: right;
         margin: 10px 0 20px 20px;
       }
-      @media (max-width: 600px) {
+      @media only screen and (min-width: 335px) and (max-width: 959px){
         .about-text img {
-          float: none;
-          display: block;
-          margin: 0 auto 30px;
-        }
-      }
+              float: left;
+              width:150px;
+              // display: block;
+              // margin: 0 auto 30px;
+            }
+            .about-text{
+              text-align:justify;
+            }
+    }
+      // @media (max-width: 600px) {
+      //   .about-text img {
+      //     float: none;
+      //     display: block;
+      //     margin: 0 auto 30px;
+      //   }
+      // }
     `}</style>
   </Layout>
 );
