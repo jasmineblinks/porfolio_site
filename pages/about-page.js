@@ -63,7 +63,7 @@ const About = () => (
       }
       @media only screen and (min-width: 335px) and (max-width: 959px){
         .about-text img {
-              float: left;
+              float: right;
               width:150px;
               margin-right:10px;
               // display: block;
