@@ -186,7 +186,7 @@ River State,Nigeria</h6>
           padding-top:10px;     
             display:block;
             padding-left:15px;
-            // min-height: calc(100vh - 40px);
+            min-height: calc(100vh - 40px);
           
         }
         .info_item{

@@ -71,6 +71,7 @@ grid-gap: 0.5rem;
       @media only screen and (min-width: 335px) and (max-width: 959px){
         .card {
           grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+          min-height: calc(100vh - 40px);
 
         }
      }
