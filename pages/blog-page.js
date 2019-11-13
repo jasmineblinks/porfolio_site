@@ -64,6 +64,16 @@ const Blog = () => (
         
         
       }
+
+      @media only screen and (min-width: 335px) and (max-width: 959px){
+        .card {
+          width: 100%;
+          display: block;
+          margin-bottom: 20px;
+          
+          
+        }
+     }
     `}</style>
   </Layout>
 );

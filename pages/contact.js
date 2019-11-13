@@ -84,12 +84,13 @@ River State,Nigeria</h6>
       .contact-info{
         padding-top:40px;     
           display:flex;
+          justify-content:space-around;
           padding-left:100px;
           min-height: calc(100vh - 40px);
         
       }
       .info_item{
-        margin-left:50px;
+         margin-right:-90px;
       }
       .form-text{
         
@@ -113,16 +114,16 @@ River State,Nigeria</h6>
           padding: 8px;    
           border-radius: 8px;
           border: solid 1px #000;
-          display:block;
-            width: 100px;
+          display:flex;
+            width: 150%;
      }
      .area-input{
       margin: 10px;
       padding: 30px;    
       border-radius: 8px;
       border: solid 1px #000;
-      display:block;
-      width: 100px;
+      display:flex;
+      width: 150%;
       
      }   
   
