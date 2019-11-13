@@ -182,9 +182,9 @@ River State,Nigeria</h6>
           font-family:Fira Sans;
         }
         .contact-info{
-          padding-top:40px;     
+          padding-top:10px;     
             display:block;
-            padding-left:10px;
+            padding-left:15px;
             // min-height: calc(100vh - 40px);
           
         }
@@ -214,7 +214,7 @@ River State,Nigeria</h6>
             border-radius: 8px;
             border: solid 1px #000;
             display:block;
-              width: 150%;
+              width: 80%;
        }
        .area-input{
         margin: 10px;
@@ -222,12 +222,13 @@ River State,Nigeria</h6>
         border-radius: 8px;
         border: solid 1px #000;
         display:block;
-        width: 150%;
+        width: 80%;
         
        }   
     
       .contactform button{
-          padding:10px;
+          // padding:10px;
+          padding-left:15px;
           border-radius:50px;
           border:1px solid #E8685D;
           width:150px;
