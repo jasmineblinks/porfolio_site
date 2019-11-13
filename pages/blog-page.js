@@ -56,10 +56,13 @@ const Blog = () => (
       }
 
       .card {
-        padding-top: 35px;
-         margin-left:30px;
-         margin-right:30px;
-        columns: 4;
+        display: grid;
+ 
+grid-template-columns: repeat(2, 0fr);
+ 
+grid-auto-rows: auto;
+ 
+grid-gap: 0.5rem;
         min-height: calc(100vh - 40px);
         
         
@@ -67,11 +70,8 @@ const Blog = () => (
 
       @media only screen and (min-width: 335px) and (max-width: 959px){
         .card {
-          width: 100%;
-          display: block;
-          margin-bottom: 20px;
-          
-          
+          grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+
         }
      }
     `}</style>
