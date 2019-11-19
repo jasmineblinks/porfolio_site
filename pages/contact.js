@@ -156,12 +156,16 @@ River State,Nigeria</h6>
       @media only screen and (min-width: 335px) and (max-width: 959px){
 
         .contact-head{
-          text-align: center;
-        margin:auto;
-         font-family:BlinkMacSystemFont;
-        background: linear-gradient(
-          rgba(232, 104, 93, 0.45),
-          rgba(232, 104, 93, 0.45) 
+
+          display: flex;
+      justify-content: center;
+      align-items: center;
+        //   text-align: center;
+        // margin:auto;
+        //  font-family:BlinkMacSystemFont;
+        // background: linear-gradient(
+        //   rgba(232, 104, 93, 0.45),
+        //   rgba(232, 104, 93, 0.45) 
         
         ), 
         url("/static/lap.jpg");

@@ -4,7 +4,7 @@ import Layout from '../components/layout';
 const About = () => (
   <Layout title="About-page">
     <div className="about-head">
-    <h1>About Us</h1>
+    <h1>About</h1>
     </div>
     
     
@@ -62,6 +62,11 @@ const About = () => (
         margin: 10px 0 20px 20px;
       }
       @media only screen and (min-width: 335px) and (max-width: 959px){
+        .about-head{
+          display: flex;
+      justify-content: center;
+        align-items: center;
+        }
         .about-text img {
               float: right;
               width:150px;
@@ -71,7 +76,8 @@ const About = () => (
             }
             .about-text{
               font-size:16px;
-              text-align:justify;
+              font-family:sans serif;
+              text-align:left;
              
             }
     }
