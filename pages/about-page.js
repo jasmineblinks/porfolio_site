@@ -33,7 +33,9 @@ const About = () => (
        padding: 0px;
     }
      .about-head{
-       text-align: center;
+      display: flex;
+      justify-content: center;
+        align-items: center;
       margin:auto;
        font-family:BlinkMacSystemFont;
       background: linear-gradient(
