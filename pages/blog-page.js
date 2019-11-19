@@ -59,13 +59,13 @@ const Blog = () => (
 
       .card {
         display: grid;
-        
+        grid-template-columns: repeat(auto-fill, minmax(250px, 100px));
  
-grid-template-columns: repeat(4, 80px);
+// grid-template-columns: repeat(4, 80px);
  
- grid-auto-rows: auto;
+//  grid-auto-rows: auto;
  
- grid-gap: 10px;
+//  grid-gap: 20px;
  min-height: calc(100vh - 40px);
         
         
