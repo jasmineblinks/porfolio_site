@@ -61,8 +61,8 @@ River State,Nigeria</h6>
       margin:auto;
        font-family:BlinkMacSystemFont;
       background: linear-gradient(
-        rgba(232, 104, 93, 0.45),
-        rgba(232, 104, 93, 0.45) 
+        rgba(232, 104, 93, 0.60),
+        rgba(232, 104, 93, 0.50) 
       
       ), 
       url("/static/lap.jpg");

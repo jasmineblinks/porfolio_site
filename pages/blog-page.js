@@ -48,8 +48,8 @@ const Blog = () => (
         margin: auto;
         font-family: BlinkMacSystemFont;
         background: linear-gradient(
-            rgba(232, 104, 93, 0.45),
-            rgba(232, 104, 93, 0.45)
+            rgba(232, 104, 93, 0.60),
+            rgba(232, 104, 93, 0.50)
           ),
           url("/static/lap.jpg");
           background-repeat:no repeat;
@@ -82,6 +82,11 @@ grid-template-columns: repeat(4, 80px);
           min-height: calc(100vh - 40px);
           justify-content: center;
           align-items: center;
+
+        }
+        .card img{
+          width:360px;
+          height:100px;
 
         }
      }
