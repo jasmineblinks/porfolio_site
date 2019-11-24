@@ -7,25 +7,25 @@ const Blog = () => (
     <h1>Blog page</h1>
     <div className="card">
       <div>
-        <img src="/static/com.jpeg" width="500px" height="200px" />
+        <img src="/static/com.jpeg" width="300px" height="100px" />
         <Link href="https://www.facebook.com/pueneh.faithkb">
           <a>My Experience With Zeit</a>
         </Link>
       </div>
       <div>
-        <img src="/static/com.jpeg" width="500px" height="200px" />
+        <img src="/static/com.jpeg" width="300px" height="100px" />
         <Link href="https://www.facebook.com/pueneh.faithkb">
           <a>How to build static site using Next.js</a>
         </Link>
       </div>
       <div>
-        <img src="/static/com.jpeg" width="500px" height="200px" />
+        <img src="/static/com.jpeg" width="300px" height="100px" />
         <Link href="https://www.facebook.com/pueneh.faithkb">
           <a>My Experience With Zeit</a>
         </Link>
       </div>
       <div>
-        <img src="/static/com.jpeg" width="500px" height="200px" />
+        <img src="/static/com.jpeg" width="300px" height="100px" />
         <Link href="https://www.facebook.com/pueneh.faithkb">
           <a>My Experience With Zeit</a>
         </Link>
@@ -59,14 +59,11 @@ const Blog = () => (
 
       .card {
         display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(250px, 100px));
- 
-// grid-template-columns: repeat(4, 80px);
- 
-//  grid-auto-rows: auto;
- 
-//  grid-gap: 20px;
- min-height: calc(100vh - 40px);
+        grid-template-columns: auto auto auto auto; 
+        grid-gap: 20px;
+        margin-left:20px;
+        margin-top:50px;
+      min-height: calc(100vh - 40px);
         
         
       }
