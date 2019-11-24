@@ -1,54 +1,84 @@
-
-
-import Layout from '../components/layout';
+import Layout from "../components/layout";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
-import { faPhoneAlt} from "@fortawesome/free-solid-svg-icons";
+import { faPhoneAlt } from "@fortawesome/free-solid-svg-icons";
 import { faMapMarkerAlt } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
+const Contact = () => (
+  <Layout title="contact">
+    <div className="contact-head">
+      <h1>Get In Touch</h1>
+    </div>
 
-const Contact= () => (
-    <Layout title="contact">
-      
-      <div className="contact-head">
-        <h1>Get In Touch</h1>
-      </div>
-
-      <div className="contact-info">
+    <div className="contact-info">
       <div className="contact-text">
-      <div className="info_item">
-      <h6> <span className="font"><FontAwesomeIcon icon={faMapMarkerAlt} /></span>
-River State,Nigeria</h6>
-    <p>#21 Potts Johnson street</p>
-   </div>
-
         <div className="info_item">
-
-        <h6>  <span className="font"><FontAwesomeIcon icon={faPhoneAlt} /></span>  
-        00 (958) 9865 562</h6>        
-        <p>Mon to Fri 9am to 5pm</p>
-        </div>
-        <div className="info_item">
-        <h6> <span className="font"> <FontAwesomeIcon icon={faEnvelope} /></span> 
-        jasmineconcept12@gmail.com</h6>
+          <h6>
+            {" "}
+            <span className="font">
+              <FontAwesomeIcon icon={faMapMarkerAlt} />
+            </span>
+            River State,Nigeria
+          </h6>
+          <p>#21 Potts Johnson street</p>
         </div>
 
+        <div className="info_item">
+          <h6>
+            {" "}
+            <span className="font">
+              <FontAwesomeIcon icon={faPhoneAlt} />
+            </span>
+            00 (958) 9865 562
+          </h6>
+          <p>Mon to Fri 9am to 5pm</p>
+        </div>
+        <div className="info_item">
+          <h6>
+            {" "}
+            <span className="font">
+              {" "}
+              <FontAwesomeIcon icon={faEnvelope} />
+            </span>
+            jasmineconcept12@gmail.com
+          </h6>
+        </div>
       </div>
-      <div className="form-text" >
+      <div className="form-text">
         <h4>Send A Message</h4>
         <form className="contactform">
-        <input type="text" name="name" placeholder="Name" required="name" id="name" />        
-        <input type="email" name="email" placeholder="Email" required="email" id="username" />
-        <input type="text" name="subject" placeholder="Subject" required="subject" id="subeject" />
-         <textarea className="area-input" name="message" placeholder="Enter your Message"></textarea>
-								<button >Send Message</button>
+          <input
+            type="text"
+            name="name"
+            placeholder="Name"
+            required="name"
+            id="name"
+          />
+          <input
+            type="email"
+            name="email"
+            placeholder="Email"
+            required="email"
+            id="username"
+          />
+          <input
+            type="text"
+            name="subject"
+            placeholder="Subject"
+            required="subject"
+            id="subeject"
+          />
+          <textarea
+            className="area-input"
+            name="message"
+            placeholder="Enter your Message"
+          ></textarea>
+          <button>Send Message</button>
         </form>
       </div>
-      </div>
-    
+    </div>
 
-
-      <style jsx>{`
+    <style jsx>{`
       *{
         padding:0;
         margin:0;
@@ -259,8 +289,7 @@ River State,Nigeria</h6>
         
      }
       `}</style>
-    </Layout>
-    
-  );
+  </Layout>
+);
 
-  export default Contact;
+export default Contact;

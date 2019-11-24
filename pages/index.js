@@ -1,7 +1,6 @@
 import Layout from "../components/layout";
 import Link from "next/link";
 
-
 const Homepage = () => (
   <Layout>
     <section className="cover">
@@ -103,8 +102,8 @@ const Homepage = () => (
       .cover {
         /* The image used */
         background: linear-gradient(
-            rgba(232, 104, 93, 0.60),
-            rgba(232, 104, 93, 0.50)
+            rgba(232, 104, 93, 0.6),
+            rgba(232, 104, 93, 0.5)
           ),
           url("/static/cu.jpeg");
 
@@ -171,39 +170,33 @@ const Homepage = () => (
         background-color: #fff;
       }
 
-
-      @media only screen and (min-width: 335px) and (max-width: 959px){
-       
-           
-           .text {
-          
-             text-align:center;
-             line-height:15px;
-            // left: 30px;
-            //  right: 30px;
-            //  padding: 20px;
-           }
-           .text h1 {
-             font-size: 28px;
-           }
-           .tex {
-             font-size: 20px;
-           }
-           .text button {
-            width: 100px;
-             padding: 5px;
-          }
-          .text h2 {
-             font-size: 15px;
-             font-family: Fira Sans;
-          }
-           .my_link {
-             font-size: 15px;
-             margin-left:50px;
-           }
-           }
-      
-     
+      @media only screen and (min-width: 335px) and (max-width: 959px) {
+        .text {
+          text-align: center;
+          line-height: 15px;
+          // left: 30px;
+          //  right: 30px;
+          //  padding: 20px;
+        }
+        .text h1 {
+          font-size: 28px;
+        }
+        .tex {
+          font-size: 20px;
+        }
+        .text button {
+          width: 100px;
+          padding: 5px;
+        }
+        .text h2 {
+          font-size: 15px;
+          font-family: Fira Sans;
+        }
+        .my_link {
+          font-size: 15px;
+          margin-left: 50px;
+        }
+      }
     `}</style>
   </Layout>
 );
