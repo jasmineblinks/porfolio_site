@@ -79,6 +79,7 @@ const Blog = () => (
           min-height: calc(100vh - 40px);
           justify-content: center;
           align-items: center;
+          
 
         }
         .card img{
