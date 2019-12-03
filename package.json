@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "next",
+    "dev": "CONTENTFUL_SPACE_ID=cj3bmd5ujbct CONTENTFUL_ACCESS_TOKEN=3eBJA39fi5ew8ZCQsQnrcu4UKQVOMqYTjR5CzhcHtqY next",
     "build": "next build",
     "start": "next start"
   },
@@ -15,9 +15,12 @@
     "@fortawesome/fontawesome-svg-core": "^1.2.25",
     "@fortawesome/free-solid-svg-icons": "^5.11.2",
     "@fortawesome/react-fontawesome": "^0.1.7",
+    "contentful": "^7.10.0",
+    "moment": "^2.24.0",
     "next": "^9.0.5",
     "react": "^16.9.0",
-    "react-dom": "^16.9.0"
+    "react-dom": "^16.9.0",
+    "react-markdown": "^4.2.2"
   },
   "devDependencies": {
     "husky": "^3.0.9",

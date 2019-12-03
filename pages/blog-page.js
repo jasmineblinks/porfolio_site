@@ -1,37 +1,80 @@
+import React from "react";
 import Layout from "../components/layout";
 import Link from "next/link";
+import BlogApi from "../services/blog";
+const BlogBox = (props) => {
 
-const Blog = () => (
-  <Layout title="Blog-page">
-    <h1>Blog page</h1>
-    <div className="card">
-      <div>
-        <img src="/static/com.jpeg" width="300px" height="100px" />
-        <Link href="https://www.facebook.com/pueneh.faithkb">
-          <a>My Experience With Zeit</a>
-        </Link>
-      </div>
-      <div>
-        <img src="/static/com.jpeg" width="300px" height="100px" />
-        <Link href="https://www.facebook.com/pueneh.faithkb">
-          <a>How to build static site using Next.js</a>
-        </Link>
-      </div>
-      <div>
-        <img src="/static/com.jpeg" width="300px" height="100px" />
-        <Link href="https://www.facebook.com/pueneh.faithkb">
-          <a>My Experience With Zeit</a>
-        </Link>
-      </div>
-      <div>
-        <img src="/static/com.jpeg" width="300px" height="100px" />
-        <Link href="https://www.facebook.com/pueneh.faithkb">
-          <a>My Experience With Zeit</a>
-        </Link>
-      </div>
-    </div>
+  return <div>
+    <h3>{props.title}</h3>
+    <p>{props.description}</p>
+  </div>
+}
+export default class BlogPage extends React.Component {
+  static async getInitialProps() {
 
-    <style jsx>{`
+    const api = new BlogApi();
+    const entries = await api.fetchBlogEntries();
+    return { entries };
+  }
+  renderBlogList = entries =>
+    entries.map((entry, i) => {
+      return (
+        <BlogBox
+          key={i}
+          id={entry.id}
+          slug={entry.slug}
+          imageUrl={entry.heroImage.imageUrl}
+          title={entry.title}
+          author={entry.author.name}
+          description={entry.description}
+          tags={entry.tags}
+        />
+      );
+    });
+
+  render() {
+    const { entries } = this.props;
+    return (
+      <Layout>
+        <h1>Blog</h1>
+        <div className="row mt-3">
+          {entries.length > 0 && this.renderBlogList(entries)}
+        </div>
+      </Layout>
+    );
+  }
+  render() {
+
+    return <Layout title="Blog-page">
+      <h1>Blog page</h1>
+      <div className="card">
+        <div>
+          <img src="/static/com.jpeg" width="300px" height="100px" />
+          <Link href="https://www.facebook.com/pueneh.faithkb">
+            <a>My Experience With Zeit</a>
+          </Link>
+        </div>
+        <div>
+          <img src="/static/com.jpeg" width="300px" height="100px" />
+          <Link href="https://www.facebook.com/pueneh.faithkb">
+            <a>How to build static site using Next.js</a>
+          </Link>
+        </div>
+        <div>
+          <img src="/static/com.jpeg" width="300px" height="100px" />
+          <Link href="https://www.facebook.com/pueneh.faithkb">
+            <a>My Experience With Zeit</a>
+          </Link>
+        </div>
+        <div>
+          <img src="/static/com.jpeg" width="300px" height="100px" />
+          <Link href="https://www.facebook.com/pueneh.faithkb">
+            <a>My Experience With Zeit</a>
+          </Link>
+        </div>
+      </div>
+
+      <style jsx>{`
       * {
         margin: 0px;
         padding: 0px;
@@ -80,7 +123,8 @@ const Blog = () => (
         }
       }
     `}</style>
-  </Layout>
-);
+    </Layout>
+  }
+}
 
-export default Blog;
+
