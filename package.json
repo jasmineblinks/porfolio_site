@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "CONTENTFUL_SPACE_ID=cj3bmd5ujbct CONTENTFUL_ACCESS_TOKEN=3eBJA39fi5ew8ZCQsQnrcu4UKQVOMqYTjR5CzhcHtqY next",
+    "dev": "next",
     "build": "next build",
     "start": "next start"
   },
