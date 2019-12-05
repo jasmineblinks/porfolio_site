@@ -1,4 +1,4 @@
-import {ContentfulClientApi, createClient} from 'contentful';
+import { createClient} from 'contentful';
 import moment from 'moment';
 
 export class BlogApi {
@@ -9,6 +9,7 @@ export class BlogApi {
       accessToken: process.env.CONTENTFUL_ACCESS_TOKEN,
     });
   }
+  // ContentfulClientApi
   async fetchBlogEntries() {
     return await this.client
       .getEntries({
