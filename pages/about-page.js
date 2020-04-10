@@ -43,7 +43,7 @@ const About = () => (
       .about-text {
         color: #000;
         text-align: left;
-        max-width: 800px;
+        max-width: 900px;
         margin: 0 auto 100px;
         padding: 20px;
       }
