@@ -3,6 +3,7 @@ import Link from "next/link";
 
 const Homepage = () => (
   <Layout>
+    
     <section className="cover">
       <div className="text">
         <h1>
@@ -47,6 +48,11 @@ const Homepage = () => (
     </div>
 
     <style jsx>{`
+  
+
+{/* export default Homepage;
+function newFunction() { */
+  
       *,
       *::before,
       *::after {
@@ -197,8 +203,9 @@ const Homepage = () => (
           margin-left: 50px;
         }
       }
-    `}</style>
-  </Layout>
-);
+    
 
+`}</style>
+</Layout>
+);
 export default Homepage;
