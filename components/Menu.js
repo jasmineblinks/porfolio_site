@@ -18,11 +18,11 @@ const Menu = () => (
         <a>Contact </a>
       </Link>
     </li>
-    <li>
+    {/* <li>
       <Link href="/blog-page">
         <a>Blog</a>
       </Link>
-    </li>
+    </li> */}
     <style jsx>{`
       .menu {
         margin: 5px;
