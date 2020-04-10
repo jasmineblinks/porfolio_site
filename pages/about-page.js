@@ -9,13 +9,15 @@ const About = () => (
     <div className="about-text">
       <img src="/static/me.jpg" width="250px" />
       <p>
-        Faith Pueneh is a front-end developer, she enjoys problem-solving, and loves creating dynamic and beautiful web applications.
-
-  As a Front-End Developer with knowledge of UI/UX, Faith has been saddled with the responsibility of implementing visual and interactive elements that users engage with through their web browser when using a web application.
-
-  Faith is an advocate for women in tech, a volunteer-lead at the women who code front-end community plus team member of facebook developers circle,port harcourt.
+        Faith Pueneh is a front-end developer, she enjoys problem-solving, and
+        loves creating dynamic and beautiful web applications. As a Front-End
+        Developer with knowledge of UI/UX, Faith has been saddled with the
+        responsibility of implementing visual and interactive elements that
+        users engage with through their web browser when using a web
+        application. Faith is an advocate for women in tech, a volunteer-lead at
+        the women who code front-end community plus team member of facebook
+        developers circle,port harcourt.
       </p>
-
     </div>
     <style jsx>{`
       * {

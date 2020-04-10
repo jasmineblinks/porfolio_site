@@ -3,7 +3,6 @@ import Link from "next/link";
 
 const Homepage = () => (
   <Layout>
-    
     <section className="cover">
       <div className="text">
         <h1>
@@ -206,6 +205,6 @@ function newFunction() { */
     
 
 `}</style>
-</Layout>
+  </Layout>
 );
 export default Homepage;
