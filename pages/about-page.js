@@ -9,24 +9,15 @@ const About = () => (
     <div className="about-text">
       <img src="/static/me.jpg" width="250px" />
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut est
-        euismod, iaculis ante efficitur, sodales nisl. Nulla non orci vitae nibh
-        ullamcorper finibus. Morbi a nisl tempor, sodales ex quis, aliquet
-        neque. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Faith Pueneh is a front-end developer, she enjoys problem-solving, and loves creating dynamic and beautiful web applications.
+
+As a Front-End Developer with knowledge of UI/UX, Faith has been saddled with the responsibility of implementing visual and interactive elements that users engage with through their web browser when using a web application.
+
+Faith is an advocate for women in tech, a volunteer-lead at the women who code front-end community plus team member of HerTechTrail.
+
+Her major goal is to leave her footprint in the sands of time. She's a music addict and God lover. 
       </p>
-      <p>
-        Praesent gravida a diam ut faucibus. Class aptent taciti sociosqu ad
-        litora torquent per conubia nostra, per inceptos himenaeos. Sed sed nibh
-        a ipsum sagittis finibus ac in magna. Curabitur id mauris quis nulla
-        commodo tristique.
-      </p>
-      <p>
-        Nunc eu mi et justo sodales vehicula. Vestibulum velit erat, tincidunt
-        sed tortor id, viverra egestas felis. Cras in ullamcorper ex. Etiam diam
-        lacus, interdum sed rhoncus vel, ultricies ut nisi. Nam ut orci at ante
-        auctor mollis. Phasellus eget augue ac nibh vestibulum pellentesque.
-        Nulla enim augue, placerat id malesuada at, maximus sed tortor.
-      </p>
+      
     </div>
     <style jsx>{`
       * {
